@@ -68,50 +68,179 @@
 
 
 
-function scuberGreetingForFeet(ride) {
-  let message;
-  if (ride <= 400) {
-    message = "This one is on me!"
-  } else if (ride > 2000 &&  ride < 2500) {
-    message = "I will gladly take your thirty bucks."
+// function scuberGreetingForFeet(ride) {
+//   let message;
+//   if (ride <= 400) {
+//     message = "This one is on me!"
+//   } else if (ride > 2000 &&  ride < 2500) {
+//     message = "I will gladly take your thirty bucks."
 
-  }  else {
-    message = "No can do."
-  }
-  return message
-}
+//   }  else {
+//     message = "No can do."
+//   }
+//   return message
+// }
 
 
-function ternaryCheckCity(city) {
-let compliment;
- city === "NYC" ? (compliment="Ok, sounds good.") : (compliment="No go.")
+// function ternaryCheckCity(city) {
+// let compliment;
+//  city === "NYC" ? (compliment="Ok, sounds good.") : (compliment="No go.")
 
- return compliment
-}
+//  return compliment
+// }
 
-function switchOnCharmFromTip(tip) {
-  // let response
-  switch (tip) {
-    // case "generous":
-    //   response = "Thank you so much."
-    //   case "not as generous":
-    //     response = "Thank you."
+// function switchOnCharmFromTip(tip) {
+//   // let response
+//   switch (tip) {
+//     // case "generous":
+//     //   response = "Thank you so much."
+//     //   case "not as generous":
+//     //     response = "Thank you."
   
-    // default:
-    //   response = "Bye."
-    //   return response
-      case "generous":
-      return "Thank you so much.";
-    case "not as generous":
-      return "Thank you.";
-    default:
-      return "Bye.";
+//     // default:
+//     //   response = "Bye."
+//     //   return response
+//       case "generous":
+//       return "Thank you so much.";
+//     case "not as generous":
+//       return "Thank you.";
+//     default:
+//       return "Bye.";
 
-      }
-}
+//       }
+// }
 
 
 
  
+
+function scuberGreetingForFeet(ride) {
+  
+if (ride <= 400) {
+ return  'This one is on me!'
+ } else if (ride > 2000 && ride <= 2500 ) {
+  return 'I will gladly take your thirty bucks.'
+} else   {
+  return 'No can do.'
+}
+
+
+}
+
+
+
+// console.log(scuberGreetingForFeet(2500))
+
+
+
+
+function ternaryCheckCity(city) {
+  
+  if (city === "NYC") {
+   return "Ok, sounds good."
+  } else {
+    return 'No go.'
+  }
+
+
+}
+
+
+
+function switchOnCharmFromTip(tip) {
+    if (tip === "generous") {
+      return 'Thank you so much.'
+    } else if(tip === 'not as generous') {
+      return 'Thank you.'
+    } else {
+      return "Bye."
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
